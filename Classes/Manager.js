@@ -1,4 +1,4 @@
-const Employee = requires("./Employee.js");
+const Employee = require("./Employee.js");
 
 class Manager extends Employee {
   constructor(officeNum) {
