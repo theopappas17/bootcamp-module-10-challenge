@@ -5,7 +5,7 @@ it("Manager is an Object", function () {
   const myManager = new Manager("Test", 12, "test@gmail", "Office 99");
   expect(myManager.name).toBe("Test");
   expect(myManager.empPosition).toBe("Tester");
-  expect(myManager.id).toBe(12);
+  expect(myManager.empNum).toBe(12);
   expect(myManager.email).toBe("test@gmail.com");
   expect(myManager.officeNum).toBe("Office 99");
 });

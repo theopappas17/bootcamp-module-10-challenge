@@ -10,7 +10,7 @@ it("Engineer is an Object", function () {
   );
   expect(myEngineer.name).toBe("Test");
   expect(myEngineer.empPosition).toBe("Tester");
-  expect(myEngineer.id).toBe(12);
+  expect(myEngineer.empNum).toBe(12);
   expect(myEngineer.email).toBe("test@gmail.com");
   expect(myEngineer.githubUersname).toBe("test@githubUsername");
 });
