@@ -2,7 +2,7 @@ const Employee = requires("./Employee.js");
 
 class Manager extends Employee {
   constructor(officeNum) {
-    super(empName, id, email);
+    super(empName, empPosition, id, email);
     this.officeNum = officeNum;
   }
 }
